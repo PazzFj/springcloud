@@ -22,6 +22,9 @@
     <module>service-ribbon</module>
     <module>service-ribbon-hystrix</module>
     <module>service-zuul</module>
+    <module>service-hi</module>
+    <module>service-miya</module>
+    <module>server-zipkin</module>
   </modules>
 
   <properties>
