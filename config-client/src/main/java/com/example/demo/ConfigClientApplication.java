@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -16,12 +15,13 @@ public class ConfigClientApplication {
 		SpringApplication.run(ConfigClientApplication.class, args);
 	}
 
-	@Value("${foo}")
-	String foo;
+//	@Value("${foo}")
+//	String foo;
 
-	@RequestMapping(value = "/hi")
-	public String hi(){
-		return foo;
-	}
+    @RequestMapping(value = "/hi")
+    public String hi(){
+//		return foo;
+        return "hi";
+    }
 
 }

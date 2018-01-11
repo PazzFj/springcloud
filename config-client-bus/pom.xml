@@ -31,7 +31,7 @@
 			<groupId>org.springframework.retry</groupId>
 			<artifactId>spring-retry</artifactId>
 		</dependency>
-		<!-- config 配置 -->
+		<!-- config 客户端 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
