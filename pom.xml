@@ -25,6 +25,7 @@
     <module>service-hi</module>
     <module>service-miya</module>
     <module>server-zipkin</module>
+    <module>consul-miya</module>
   </modules>
 
   <properties>
