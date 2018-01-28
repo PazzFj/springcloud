@@ -26,6 +26,7 @@
     <module>service-miya</module>
     <module>server-zipkin</module>
     <module>consul-miya</module>
+    <module>redis-redlock</module>
   </modules>
 
   <properties>
